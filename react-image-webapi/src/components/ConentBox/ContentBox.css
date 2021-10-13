@@ -1,0 +1,36 @@
+#containerCard{
+    margin : auto;
+    width : 70%;
+    background : transparent;
+
+}
+
+.ant-card-bordered{
+    
+    width : 100%;
+    background: linear-gradient(to bottom right,#232636, rgb(0,21,41));
+    border : none;
+    border-radius: 30px;
+    color : #eac266;
+}
+
+.ant-card-head{
+    border-color: transparent;
+    font-weight : 600;    
+    color : #eac266;
+    font-size : 30px;
+    height : 60px
+}
+
+.ant-card-body{
+    font-size: 20px;
+}
+
+.contentItem{
+    float : left;
+    width : 33.3%;
+    border : 1px solid #5e71c9;
+    border-radius: 18px;
+    color : #e78d58;
+    background-color: rgba(4, 8, 12, 0.2);
+}

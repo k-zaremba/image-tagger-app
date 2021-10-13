@@ -1,0 +1,73 @@
+.ant-radio-button-wrapper {
+    background: transparent;
+    height: 50px;
+    font-size: 35px;
+    line-height: 43px;
+    color: #001529;
+    font-family: sans-serif;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+
+.ant-radio-button-wrapper:hover {
+    color: #eac266;
+}
+
+.ant-radio-button-wrapper-checked {
+    background: transparent;
+}
+
+.ant-radio-button-wrapper-checked:hover {
+    background: transparent;
+}
+
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+    color: #ea8066;
+    background: transparent;
+    border-color: #ea8066;
+}
+
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover {
+    color: #ea8066;
+    background: transparent;
+    border-color: #ea8066;
+}
+
+.ant-radio-button-wrapper {
+    border: none;
+}
+
+.ant-radio-button-wrapper:first-child {
+    border-left: none;
+}
+
+
+/* CHOSEN */
+
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled)::before {
+    background-color: transparent;
+}
+
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover::before {
+    background-color: transparent;
+}
+
+
+/* NOT */
+
+.ant-radio-button-wrapper:not(:first-child)::before {
+    background-color: transparent;
+}
+
+
+/* remaining cover */
+
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):focus-within {
+    box-shadow: none;
+}
+
+.ant-radio-group {
+    margin-right: 5px;
+}

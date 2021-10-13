@@ -1,0 +1,39 @@
+.App {
+  position: relative;
+  text-align: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #91a5fc, #32065f);
+  overflow: auto;
+}
+
+.bg{
+  position:absolute;
+  display:table;
+  background-color:rgba(21, 40, 61, 0.20);
+  height: 90%;
+  width: 90%;
+  top: 10%;
+  left: 5%;
+}
+
+.Appd {
+  position: relative;
+  text-align: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #536bd8, #2b0155);
+  overflow: auto;
+}
+
+.bgd{
+  position:absolute;
+  background-color:rgba(21, 40, 61, 0.20);
+  height: 90%;
+  width: 90%;
+  top: 10%;
+  left: 5%;
+  overflow: auto;
+}
+
+#header{
+  height:10%;
+}

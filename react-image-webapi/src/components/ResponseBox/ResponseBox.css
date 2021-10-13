@@ -1,0 +1,28 @@
+.ant-btn{
+    background:rgba(35, 38, 54, 0.8);
+    border-color : #282c34;
+    color : #667eea;
+    margin-bottom: 20px;
+
+}
+
+.ant-btn-round{
+    font-size: 20px;
+    height: 60px;
+    width: 200px;
+    border-radius: 50px;
+}
+/*
+#eac266 #ea8066;
+*/
+.ant-btn:hover {
+    background:rgba(0, 21, 41, 0.6);
+    border-color: #ea8066;
+    color: #ea8066;
+}
+
+.ant-btn:focus{
+    background:rgba(0, 21, 41, 0.6);
+    border-color : #282c34;
+    color : #667eea
+}
